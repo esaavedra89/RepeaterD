@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:RepeaterD"
+             x:Class="RepeaterD.MainPage">
+    
+    <ContentPage.BindingContext>
+        <local:RepeaterViewModel/>
+    </ContentPage.BindingContext>
+
+    <ScrollView>
+        <StackLayout>
+
+            <Label
+                FontSize="Large"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"
+                Text="Vista Repetida para Empleados"/>
+            
+            <local:RepeaterView
+                    ItemsSource="{Binding Empleados}">
+                <local:RepeaterView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid
+                                BackgroundColor="DodgerBlue"
+                                Margin="5"
+                                Padding="20">
+                                <Grid.GestureRecognizers>
+                                    <TapGestureRecognizer
+                                        Tapped="EmpleadosTap"/>
+                                </Grid.GestureRecognizers>
+                                <Label 
+                                    Text="{Binding .}"
+                                    TextColor="White"/>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </local:RepeaterView.ItemTemplate>
+            </local:RepeaterView>
+
+            <Label
+                Font="Large"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"
+                Text="Vista repetida para Estudiantes "/>
+
+            <local:RepeaterView
+                ItemsSource="{Binding Estudiantes}">
+                <local:RepeaterView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid
+                                BackgroundColor="Magenta"
+                                Margin="5"
+                                Padding="20">
+                                <Grid.GestureRecognizers>
+                                    <TapGestureRecognizer
+                                        Tapped="EstudiantesTap"/>
+                                </Grid.GestureRecognizers>
+                                <Label
+                                    Text="{Binding .}"
+                                    TextColor="White"/>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </local:RepeaterView.ItemTemplate>
+            </local:RepeaterView>
+
+        </StackLayout>
+    </ScrollView>
+    
+</ContentPage>

@@ -1,0 +1,16 @@
+C:\practicas-eleazar\Xamarin-Dellai\RepeaterD\RepeaterD\RepeaterD\bin\Debug\RepeaterD.dll
+C:\practicas-eleazar\Xamarin-Dellai\RepeaterD\RepeaterD\RepeaterD\bin\Debug\RepeaterD.pdb
+C:\practicas-eleazar\Xamarin-Dellai\RepeaterD\RepeaterD\RepeaterD\bin\Debug\Xamarin.Forms.Core.dll
+C:\practicas-eleazar\Xamarin-Dellai\RepeaterD\RepeaterD\RepeaterD\bin\Debug\Xamarin.Forms.Platform.dll
+C:\practicas-eleazar\Xamarin-Dellai\RepeaterD\RepeaterD\RepeaterD\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\practicas-eleazar\Xamarin-Dellai\RepeaterD\RepeaterD\RepeaterD\bin\Debug\Xamarin.Forms.Core.pdb
+C:\practicas-eleazar\Xamarin-Dellai\RepeaterD\RepeaterD\RepeaterD\bin\Debug\Xamarin.Forms.Core.xml
+C:\practicas-eleazar\Xamarin-Dellai\RepeaterD\RepeaterD\RepeaterD\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\practicas-eleazar\Xamarin-Dellai\RepeaterD\RepeaterD\RepeaterD\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\practicas-eleazar\Xamarin-Dellai\RepeaterD\RepeaterD\RepeaterD\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\practicas-eleazar\Xamarin-Dellai\RepeaterD\RepeaterD\RepeaterD\obj\Debug\RepeaterD.csprojResolveAssemblyReference.cache
+C:\practicas-eleazar\Xamarin-Dellai\RepeaterD\RepeaterD\RepeaterD\obj\Debug\RepeaterD.csproj.CoreCompileInputs.cache
+C:\practicas-eleazar\Xamarin-Dellai\RepeaterD\RepeaterD\RepeaterD\obj\Debug\RepeaterD.MainPage.xaml.g.cs
+C:\practicas-eleazar\Xamarin-Dellai\RepeaterD\RepeaterD\RepeaterD\obj\Debug\RepeaterD.App.xaml.g.cs
+C:\practicas-eleazar\Xamarin-Dellai\RepeaterD\RepeaterD\RepeaterD\obj\Debug\RepeaterD.dll
+C:\practicas-eleazar\Xamarin-Dellai\RepeaterD\RepeaterD\RepeaterD\obj\Debug\RepeaterD.pdb
